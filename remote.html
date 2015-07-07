@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>Remote Support</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#3c967b">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+    <link rel="stylesheet" href="css/layouts/side-menu.css">
+
+
+</head>
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="index.html">Jake Lutz</a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="connect.html">Connect</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="menu-item-divided pure-menu-selected">
+                    <a href="remote.html">Remote Support</a>
+                </li>
+                <li><a href="/photography/">Photography</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Remote Support</h1>
+            <h2>Click the appropriate button below to launch the remote assistance tool.</h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Instructions</h2>
+                <ol>
+                    <li>Find your operating system listed below.</li>
+                    <li>Click the corresponding logo.</li>
+                    <li>
+                        A file will be downloaded to your computer and you will receive a prompt asking if you want to 'Save' or 'Run'
+                        the file. Please click 'Run'.
+                    </li>
+                    <li>Be sure to click 'Yes' if you see a popup asking for your permission to run the application.</li>
+                </ol>
+
+            <h3 class="content-subhead">Windows</h3>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-sm-5-12">
+                    <p>
+                        This includes all Windows desktops or laptops, and many Windows tablets. As long as your tablet is running full Windows
+                        and not Windows RT, this button will work for you. It does <em>not</em> include Windows Phones.
+                    </p>
+                </div>
+                <div class="pure-u-sm-1-4"></div>
+                <div class="pure-u-1 pure-u-sm-1-6">
+                    <a href="http://download.teamviewer.com/download/TeamViewerQS_en.exe">
+                        <img class="pure-img-responsive" src="img/windows-logo.png" />
+                    </a>
+                </div>
+            </div>
+
+            <h3 class="content-subhead">OS X</h3>
+            <div class="pure-g">
+               <div class="pure-u-1 pure-u-sm-5-12">
+                   <p>
+                       This includes all Apple computers such as Macbooks, Mac Pros, iMacs, and Mac Minis.
+                       It does <em>not</em> include Apple devices like iPhones, iPads, or iPods.
+                   </p>
+               </div>
+                <div class="pure-u-sm-1-4"></div>
+                <div class="pure-u-1 pure-u-sm-1-6">
+                    <a href="http://download.teamviewer.com/download/TeamViewerQS.dmg">
+                        <img class="pure-img-responsive" src="img/os-x-logo.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>
