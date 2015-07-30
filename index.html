@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
 
     <title>Home</title>
 
@@ -34,6 +33,10 @@
 
 
     <link rel="stylesheet" href="css/layouts/landing_page.css">
+    
+    
+    <link rel="stylesheet" href="css/layouts/side-menu.css">
+    
 
 
 </head>
@@ -45,7 +48,6 @@
         <p class="pure-menu-heading">Jake Lutz</p>
         <ul>
             <li class="pure-menu-selected"><a href="index.html">Home</a></li>
-            <li><a href="connect.html">Connect</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="remote.html">Remote Support</a></li>
             <li><a href="/photography/">Photography</a></li>
@@ -67,8 +69,7 @@
         <h2 class="content-head is-center">About Me</h2>
 
         <div class="pure-g">
-            <div class="pure-u-1-24 pure-u-lg-1-4" ></div>
-            <div class="pure-u-11-12 pure-u-lg-1-2">
+            <div class="pure-u-1">
                 <p>
                    I'm a recently graduated software engineering major working in software development for Liberty Mutual Insurance Group.
                    This site started as an online resume, but quickly became a Swiss Army knife of utilities that I thought belonged online,
@@ -76,14 +77,11 @@
                    the site, but I usually just end up adding something. 
                 </p>
                 <p>
-                    You can get in touch with me using the contact form below or with one
-                    of the methods listed on the <a href="connect.html">connect</a> page.<br /><br />
+                    You can email me using the contact form below or find me on one of the online communities listed at the bottom of the page.
                 </p>
             </div>
-            <div class="pure-u-1-24 pure-u-lg-1-4"></div>
         </div>
-        <div class="pure-u-1-24 pure-u-lg-1-4"></div>
-        <div class="pure-u-11-12 pure-u-lg-1-2">
+        <div class="pure-u-1">
             <form class="pure-form pure-form-stacked" action="contact.php" method="post">
                 <fieldset>
                     <legend>Contact Me</legend>
@@ -99,20 +97,56 @@
 
                     <div class="pure-control-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="What you want to say..."></textarea>
+                        <textarea id="message" name="message" placeholder="What do you want to say?"></textarea>
                     </div>
 
                     <button type="submit" class="pure-button pure-primary-button">Submit</button>
                 </fieldset>
             </form>
-            <div class="pure-u-1-24 pure-u-lg-1-4"></div>
+            <div class="pure-u-1-24 pure-u-lg-1-6"></div>
         </div>
-    </div>
+        
+        <div class="pure-u-1 spacer-div"></div>
+        
+        <div class="pure-g connect-grid">            
+            <!--<div class="pure-u-1-24 pure-u-md-1-12 pure-u-lg-1-5"></div>-->
+            <!--<div class="pure-u-1-6 pure-u-md-1-12 pad" >
+                <a href="mailto:jacob@colemanlutz.com">
+                    <img class="pure-img-responsive" src="img/mail-icon.png" title="Email" />
+                </a>
+                <div class="connect-grid-background-div"></div>
+                <div class="connect-grid-label-div">Email</div>
+            </div>-->
+            <div class="pure-u-1-6 pad">
+                <a target="_blank" href="http://www.facebook.com/jlutz473">
+                    <img class="pure-img-responsive" src="img/facebook-icon.png" title="Facebook" />
+                </a>                
+            </div>
+            <div class="pure-u-1-6 pad">
+                <a href="http://www.quora.com/Jacob-Lutz" target="_blank">
+                    <img class="pure-img-responsive" src="img/quora-icon.png" title="Quora" />
+                </a>                
+            </div>
+            <div class="pure-u-1-6 pad">
+                <a href="skype:jlutz473?chat">
+                    <img class="pure-img-responsive" src="img/skype-icon.png" title="Skype Chat" />
+                </a>                
+            </div>
+            <div class="pure-u-1-6 pad">
+                <a href="http://www.instagram.com/colemanlutz" target="_blank">
+                    <img class="pure-img-responsive" src="img/instagram-icon.png" title="Instagram" />
+                </a>                
+            </div>
+            <div class="pure-u-1-6 pad">
+                <a href="https://twitter.com/jlutz473" target="_blank">
+                    <img class="pure-img-responsive" src="img/twitter-icon.png" title="Twitter" />
+                </a>                
+            </div>
+        </div>
+</div>
 
-    <div class="footer l-box is-center">
-        Created by Jake Lutz using <a href="http://purecss.io/">Pure.CSS</a>
-    </div>
-
+<div class="footer l-box is-center">
+    Created by Jake Lutz using <a href="http://purecss.io/">Pure.CSS</a>
 </div>
 
 </body>
