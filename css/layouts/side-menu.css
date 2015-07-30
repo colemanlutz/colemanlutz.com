@@ -118,7 +118,7 @@ a {
 .pad a img {
     max-width: 100%;
     height: auto;
-    /*padding-right: 2em;*/
+    padding-right: .25em;
 } 
 
 
