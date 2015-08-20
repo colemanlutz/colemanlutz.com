@@ -116,9 +116,8 @@ a {
 }
 
 .pad a img {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
-    padding-right: .45em;
 } 
 
 
@@ -126,6 +125,7 @@ a {
 .connect-grid img {
     z-index: 1; 
     border-radius: 50%;
+
 }
 
 /*Format the divs that hold the icons on the connect page*/
